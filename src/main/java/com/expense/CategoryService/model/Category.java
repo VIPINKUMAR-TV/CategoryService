@@ -20,7 +20,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "categories")
+@Table(name = "categories", schema = "categorydb")
 public class Category {
 	  @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
